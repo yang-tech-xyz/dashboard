@@ -10,30 +10,30 @@ import BR from "@/assets/img/icons/flags/BR.png";
 const sales = {
   us: {
     country: "United States",
-    sales: 2500,
-    value: "250",
-    bounce: "10%",
+    sales: "95000",
+    value: "25000",
+    bounce: "26.32%",
     flag: US,
   },
   germany: {
     country: "Germany",
-    sales: "3900",
-    value: "300",
-    bounce: "40.22%",
+    sales: "35000",
+    value: "12000",
+    bounce: "34.29%",
     flag: DE,
   },
   britain: {
     country: "Great Britain",
-    sales: "1400",
-    value: "$140",
-    bounce: "23.44%",
+    sales: "30000",
+    value: "8000",
+    bounce: "26.67%",
     flag: GB,
   },
   brasil: {
     country: "Brasil",
-    sales: "5620",
-    value: "560",
-    bounce: "32.14%",
+    sales: "90000",
+    value: "25000",
+    bounce: "27.78%",
     flag: BR,
   },
 };
@@ -46,7 +46,7 @@ const sales = {
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
               title="Registered users"
-              value="20,000"
+              value="250,000"
               description="<span
                 class='text-sm font-weight-bolder text-success'
                 >+55%</span> since last month"
@@ -60,7 +60,7 @@ const sales = {
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
               title="Wallet Users"
-              value="7,000"
+              value="50,000"
               description="<span
                 class='text-sm font-weight-bolder text-success'
                 >+3%</span> since last week"
@@ -73,11 +73,11 @@ const sales = {
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="fan token holders"
-              value="3,462"
+              title="Airdrop Users"
+              value="7,000"
               description="<span
-                class='text-sm font-weight-bolder text-danger'
-                >-2%</span> since last quarter"
+                class='text-sm font-weight-bolder text-success'
+                >+5%</span> since last week"
               :icon="{
                 component: 'ni ni-paper-diploma',
                 background: 'bg-gradient-success',
@@ -87,8 +87,8 @@ const sales = {
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
-              title="fan token comsumed users"
-              value="103,430"
+              title="fan token users"
+              value="15,000"
               description="<span
                 class='text-sm font-weight-bolder text-success'
                 >+5%</span> than last month"
@@ -108,7 +108,7 @@ const sales = {
                 id="chart-line"
                 title="Users Overview"
                 description="<i class='fa fa-arrow-up text-success'></i>
-      <span class='font-weight-bold'>4% more</span> in 2021"
+      2024"
                 :chart="{
                   labels: [
                     'Apr',
@@ -124,7 +124,7 @@ const sales = {
                   datasets: [
                     {
                       label: 'new users',
-                      data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+                      data: [15000, 20000, 25000, 27000, 30000, 32000, 33000, 33000, 35000],
                     },
                   ],
                 }"
