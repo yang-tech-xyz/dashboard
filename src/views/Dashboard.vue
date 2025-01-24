@@ -2,39 +2,81 @@
 import MiniStatisticsCard from "@/examples/Cards/MiniStatisticsCard.vue";
 import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
 
-import US from "@/assets/img/icons/flags/US.png";
-import DE from "@/assets/img/icons/flags/DE.png";
-import GB from "@/assets/img/icons/flags/GB.png";
+import AU from "@/assets/img/icons/flags/AU.png";
 import BR from "@/assets/img/icons/flags/BR.png";
+import HK from "@/assets/img/icons/flags/HK.png";
+import IN from "@/assets/img/icons/flags/IN.png";
+import MA from "@/assets/img/icons/flags/MA.png";
+import RU from "@/assets/img/icons/flags/RU.png";
+import SI from "@/assets/img/icons/flags/SI.png";
+import UK from "@/assets/img/icons/flags/UK.png";
+import US from "@/assets/img/icons/flags/US.png";
+
+
 
 const sales = {
   us: {
     country: "United States",
-    sales: "95000",
-    value: "25000",
-    bounce: "26.32%",
+    sales: "55000",
+    value: "14000",
+    bounce: "25.45%",
     flag: US,
   },
-  germany: {
-    country: "Germany",
-    sales: "35000",
+  in: {
+    country: "India",
+    sales: "50000",
     value: "12000",
-    bounce: "34.29%",
-    flag: DE,
+    bounce: "24.00%",
+    flag: IN,
   },
-  britain: {
-    country: "Great Britain",
-    sales: "30000",
-    value: "8000",
-    bounce: "26.67%",
-    flag: GB,
+  ru: {
+    country: "Russia",
+    sales: "35000",
+    value: "9000",
+    bounce: "25.71%",
+    flag: RU,
   },
-  brasil: {
+  br: {
     country: "Brasil",
-    sales: "90000",
-    value: "25000",
-    bounce: "27.78%",
+    sales: "25000",
+    value: "8000",
+    bounce: "32.00%",
     flag: BR,
+  },
+  uk: {
+    country: "United Kingdom",
+    sales: "22000",
+    value: "7000",
+    bounce: "31.82%",
+    flag: UK,
+  },
+  au: {
+    country: "Australia",
+    sales: "18000",
+    value: "6000",
+    bounce: "33.33%",
+    flag: AU,
+  },
+  ma: {
+    country: "Malaysia",
+    sales: "17000",
+    value: "5500",
+    bounce: "32.35%",
+    flag: MA,
+  },
+  hk: {
+    country: "Hong Kong",
+    sales: "15000",
+    value: "5000",
+    bounce: "33.33%",
+    flag: HK,
+  },
+  si: {
+    country: "Singapore",
+    sales: "13000",
+    value: "3500",
+    bounce: "26.92%",
+    flag: SI,
   },
 };
 </script>
