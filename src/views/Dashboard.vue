@@ -150,7 +150,7 @@ const sales = {
                 id="chart-line"
                 title="Users Overview"
                 description="<i class='fa fa-arrow-up text-success'></i>
-      2024"
+      2025"
                 :chart="{
                   labels: [
                     'Apr',
