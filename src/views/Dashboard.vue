@@ -17,64 +17,64 @@ import US from "@/assets/img/icons/flags/US.png";
 const sales = {
   us: {
     country: "United States",
-    sales: "55000",
-    value: "14000",
+    sales: "55k+",
+    value: "14k+",
     bounce: "25.45%",
     flag: US,
   },
   in: {
     country: "India",
-    sales: "50000",
-    value: "12000",
+    sales: "50k+",
+    value: "12k+",
     bounce: "24.00%",
     flag: IN,
   },
   ru: {
     country: "Russia",
-    sales: "35000",
-    value: "9000",
+    sales: "35k+",
+    value: "9k+",
     bounce: "25.71%",
     flag: RU,
   },
   br: {
     country: "Brasil",
-    sales: "25000",
-    value: "8000",
+    sales: "25k+",
+    value: "8k+",
     bounce: "32.00%",
     flag: BR,
   },
   uk: {
     country: "United Kingdom",
-    sales: "22000",
-    value: "7000",
+    sales: "22k+",
+    value: "7k+",
     bounce: "31.82%",
     flag: UK,
   },
   au: {
     country: "Australia",
-    sales: "18000",
-    value: "6000",
+    sales: "18k+",
+    value: "6k+",
     bounce: "33.33%",
     flag: AU,
   },
   ma: {
     country: "Malaysia",
-    sales: "17000",
-    value: "5500",
+    sales: "17k+",
+    value: "5.5k+",
     bounce: "32.35%",
     flag: MA,
   },
   hk: {
     country: "Hong Kong",
-    sales: "15000",
-    value: "5000",
+    sales: "15k+",
+    value: "5k+",
     bounce: "33.33%",
     flag: HK,
   },
   si: {
     country: "Singapore",
-    sales: "13000",
-    value: "3500",
+    sales: "13k+",
+    value: "3.5k+",
     bounce: "26.92%",
     flag: SI,
   },
@@ -88,10 +88,10 @@ const sales = {
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
               title="Registered users"
-              value="250,000"
+              value="250k+"
               description="<span
                 class='text-sm font-weight-bolder text-success'
-                >+55%</span> since last month"
+                >+32%</span> since last month"
               :icon="{
                 component: 'ni ni-money-coins',
                 background: 'bg-gradient-primary',
@@ -102,10 +102,10 @@ const sales = {
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
               title="Wallet Users"
-              value="50,000"
+              value="50k+"
               description="<span
                 class='text-sm font-weight-bolder text-success'
-                >+3%</span> since last week"
+                >+37%</span> since last week"
               :icon="{
                 component: 'ni ni-world',
                 background: 'bg-gradient-danger',
@@ -116,10 +116,10 @@ const sales = {
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
               title="Airdrop Users"
-              value="7,000"
+              value="7k+"
               description="<span
                 class='text-sm font-weight-bolder text-success'
-                >+5%</span> since last week"
+                >+216%</span> since last week"
               :icon="{
                 component: 'ni ni-paper-diploma',
                 background: 'bg-gradient-success',
@@ -130,10 +130,10 @@ const sales = {
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
               title="fan token users"
-              value="15,000"
+              value="15k+"
               description="<span
                 class='text-sm font-weight-bolder text-success'
-                >+5%</span> than last month"
+                >+35%</span> than last month"
               :icon="{
                 component: 'ni ni-cart',
                 background: 'bg-gradient-warning',
