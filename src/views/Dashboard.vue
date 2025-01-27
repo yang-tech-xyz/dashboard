@@ -11,7 +11,7 @@ import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
               title="Registered users"
-              value="250k+"
+              value="258k+"
               description="<span
                 class='text-sm font-weight-bolder text-success'
                 >+32%</span> since last month"
@@ -25,7 +25,7 @@ import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
           <div class="col-lg-3 col-md-6 col-12">
             <mini-statistics-card
               title="Wallet Users"
-              value="50k+"
+              value="51k+"
               description="<span
                 class='text-sm font-weight-bolder text-success'
                 >+37%</span> since last week"
