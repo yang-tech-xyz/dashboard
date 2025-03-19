@@ -75,14 +75,14 @@ import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
                 description="2024 - 2025"
                 :chart="{
                   labels: [
-                    'Jun',
-                    'Jul',
                     'Aug',
                     'Sep',
                     'Oct',
                     'Nov',
                     'Dec',
                     'Jan',
+                    'Feb',
+                    'Mar',
                   ],
                   datasets: [
                     {
