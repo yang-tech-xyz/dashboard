@@ -83,11 +83,12 @@ import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
                     'Jan',
                     'Feb',
                     'Mar',
+                    'Apr',
                   ],
                   datasets: [
                     {
                       label: 'new users',
-                      data: [6123, 6723, 9162, 10744, 14321, 18985, 36987, 85267],
+                      data: [6123, 6723, 9162, 10744, 14321, 18985, 36987, 85267, 948625],
                     },
                   ],
                 }"
