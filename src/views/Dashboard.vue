@@ -88,7 +88,7 @@ import GradientLineChart from "@/examples/Charts/GradientLineChart.vue";
                   datasets: [
                     {
                       label: 'new users',
-                      data: [96123, 96723, 99162, 100744, 120321, 200985, 306987, 325267, 338625],
+                      data: [17065, 17165, 17595, 17880, 21350, 35660, 54480, 57720, 60085],
                     },
                   ],
                 }"
